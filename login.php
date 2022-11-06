@@ -24,9 +24,9 @@
                 $rows = pg_num_rows($result);
 
                 if($rows){
-                    echo("$username exists in database");
+                    echo("Login successful for $username");
                 }else{
-                    echo("$username doesn't exist in database");
+                    echo("Login failed for $username");
                 }
             }
         ?>
